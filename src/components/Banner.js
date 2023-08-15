@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/perfil_picture.png";
+import headerImg from "../assets/img/perfil.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -57,7 +57,11 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Anthony`} <span className="txt-rotate" dataPeriod="850" data-rotate='[ "Web Developer", "Backend Developer", "FullStack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Highly motivated Full Stack Developer with a focus on Backend and Advanced Technical
+                    Drawing skills with experience in architectural and civil projects. Possess strong skills in
+                    teamwork, strategic thinking, and leadership. Specialized in Front-end and Back-end
+                    development, with knowledge in project management, GIT, data structures, algorithms, agile
+                    methodologies, frameworks, and CSS</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
@@ -66,7 +70,7 @@ export const Banner = () => {
   <TrackVisibility>
     {({ isVisible }) =>
       <div
-        className={`animate__animated ${isVisible ? "animate__zoomIn" : ""}`}
+        className={`${isVisible ? "animate__zoomIn" : ""}`}
         style={{
           display: "flex",
           justifyContent: "center",
