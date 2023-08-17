@@ -45,21 +45,63 @@ export const Technologies = () => {
                 <h2>Technologies</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> Lorem Ipsum has been the industry's standard dummy text.</p>
                 <div className="technology-icons">
-                    <img src={htmlIcon} alt="HTML" />
-                    <img src={cssIcon} alt="CSS" />
-                    <img src={jsIcon} alt="JavaScript" />
-                    <img src={reactIcon} alt="React" />
-                    <img src={reduxIcon} alt="Redux" />
-                    <img src={nodejsIcon} alt="Node.js" />
-                    <img src={expressIcon} alt="Express" />
-                    <img src={gitIcon} alt="Git" />
-                    <img src={githubIcon} alt="GitHub" />
-                    <img src={postgresqlIcon} alt="PostgreSQL" />
-                    <img src={sequelizeIcon} alt="Sequelize" />
-                    <img src={pythonIcon} alt="Python" />
-                    <img src={fastapiIcon} alt="FastAPI" />
-                    <img src={dockerIcon} alt="Docker" />
-        </div>
+  <div className="icon-wrapper">
+    <img src={htmlIcon} alt="HTML" />
+    <div className="icon-overlay">HTML</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={cssIcon} alt="CSS" />
+    <div className="icon-overlay">CSS</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={jsIcon} alt="JavaScript" />
+    <div className="icon-overlay">JavaScript</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={reactIcon} alt="React" />
+    <div className="icon-overlay">React</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={reduxIcon} alt="Redux" />
+    <div className="icon-overlay">Redux</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={nodejsIcon} alt="Node.js" />
+    <div className="icon-overlay">Node.js</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={expressIcon} alt="Express" />
+    <div className="icon-overlay">Express</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={gitIcon} alt="Git" />
+    <div className="icon-overlay">Git</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={githubIcon} alt="GitHub" />
+    <div className="icon-overlay">GitHub</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={postgresqlIcon} alt="PostgreSQL" />
+    <div className="icon-overlay">PostgreSQL</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={sequelizeIcon} alt="Sequelize" />
+    <div className="icon-overlay">Sequelize</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={pythonIcon} alt="Python" />
+    <div className="icon-overlay">Python</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={fastapiIcon} alt="FastAPI" />
+    <div className="icon-overlay">FastAPI</div>
+  </div>
+  <div className="icon-wrapper">
+    <img src={dockerIcon} alt="Docker" />
+    <div className="icon-overlay">Docker</div>
+  </div>
+</div>
               </div>
             </div>
           </div>
