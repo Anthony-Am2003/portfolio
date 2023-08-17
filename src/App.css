@@ -349,12 +349,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Tech Skills *************/
 .technologies {
   padding: 80px 0; 
+  position: relative;
+  margin-top: 100px;
+}
+
+.technology-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -40px;
 }
 
 .technologies h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.technologies p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
 }
 
 .technology-icons {
@@ -375,18 +392,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: scale(1.1); 
 }
 
-
-@media (max-width: 768px) {
-  .technology-icons {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .technology-icons img {
-    width: 60px;
-  }
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
 }
-
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
