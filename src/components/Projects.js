@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg1 from "../assets/img/project-img1.PNG";
+import projImg2 from "../assets/img/project-img2.PNG";
 import projImg3 from "../assets/img/project-img3.png";
 
 import 'animate.css';
@@ -11,35 +11,17 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Job board Startup",
+      description: "Backend Development",
+      externalUrl: "http://huntek.com",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Academic App",
       description: "Design & Development",
+      externalUrl:"https://github.com/Anthony-Am2003/pokemonAPi",
       imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    }
   ];
 
   return (

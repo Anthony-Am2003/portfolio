@@ -1,9 +1,7 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/perfil.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -52,44 +50,27 @@ export const Banner = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={`animate__animated ${isVisible ? "animate__fadeInUp" : ""}`}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Anthony`} <span className="txt-rotate" dataPeriod="850" data-rotate='[ "Web Developer", "Backend Developer", "FullStack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Highly motivated Full Stack Developer with a focus on Backend and Advanced Technical
-                    Drawing skills with experience in architectural and civil projects. Possess strong skills in
-                    teamwork, strategic thinking, and leadership. Specialized in Front-end and Back-end
-                    development, with knowledge in project management, GIT, data structures, algorithms, agile
-                    methodologies, frameworks, and CSS</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-              </div>}
-            </TrackVisibility>
+            <span className="tagline">Welcome to my Portfolio</span>
+            <h1>{`Hi! I'm Anthony FullStack Developer`}</h1>
+            <p>Highly motivated Full Stack Developer with a focus on Backend and Advanced Technical
+              Drawing skills with experience in architectural and civil projects. Possess strong skills in
+              teamwork, strategic thinking, and leadership. Specialized in Front-end and Back-end
+              development, with knowledge in project management, GIT, data structures, algorithms, agile
+              methodologies, frameworks, and CSS</p>
+            <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-  <TrackVisibility>
-    {({ isVisible }) =>
-      <div
-        className={`animate__animated ${isVisible ? "animate__zoomIn" : ""}`}
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <img
-          src={headerImg}
-          alt="Header Img"
-          style={{
-            borderRadius: "50%",
-            width: "350px",
-            height: "350px", // Agrega esto para asegurarte de que el tamaño no cambie
-            maxWidth: "100%",
-          }}
-        />
-      </div>}
-  </TrackVisibility>
-</Col>
+            <img
+              src={headerImg}
+              alt="Header Img"
+              style={{
+                borderRadius: "50%",
+                width: "350px",
+                height: "350px",
+                maxWidth: "100%",
+              }}
+            />
+          </Col>
         </Row>
       </Container>
     </section>
