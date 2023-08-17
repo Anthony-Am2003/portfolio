@@ -346,6 +346,46 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+/************ Tech Skills *************/
+.technologies {
+  padding: 80px 0; 
+}
+
+.technologies h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.technology-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+}
+
+.technology-icons img {
+  width: 80px; 
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.technology-icons img:hover {
+  transform: scale(1.1); 
+}
+
+
+@media (max-width: 768px) {
+  .technology-icons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .technology-icons img {
+    width: 60px;
+  }
+}
 
 /************ Projects Css ************/
 .project {
