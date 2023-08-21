@@ -20,7 +20,7 @@ export const Recommendations = () => {
     {
       name: "Gibson Gil",
       position: "Full Stack Developer",
-      recommendation: "",
+      recommendation: "Compartir espacios con Anthony fue una agradable experiencia, siempre buscando la forma de ayudar y aprender, le espera una gran carrera y un enorme futuro, sin duda un gran colega de profesion.",
     }
   ];
 
