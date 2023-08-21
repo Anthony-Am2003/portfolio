@@ -621,7 +621,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************Recomendatios************/
 .recommendation-card {
   background: linear-gradient(135deg, #fba911, #000);
-  color: white;
+  color: rgb(0, 0, 0);
   border-radius: 10px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
   padding: 20px;

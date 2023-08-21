@@ -8,9 +8,9 @@ export const Recommendations = () => {
 
   const recommendations = [
     {
-      name: "John Doe",
-      position: "CEO",
-      recommendation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus a eros at consequat.",
+      name: "Valentina Vidal",
+      position: "Huntek Co-Founder",
+      recommendation: "Anthony es un gran profesional, pro activo, con muchísimas ganas siempre de sumar y sin dudar de dar su mejor cara para los retos que puede tener. Siempre tratando de aprender un poco mas para poder sumar a Huntek. Le espera un camino enorme sin duda alguna",
     },
     {
       name: "Gustavo Martinez",
@@ -18,36 +18,41 @@ export const Recommendations = () => {
       recommendation: "Felicitaciones Anthony por tu excelente desempeño en el programa de Henry Heroes! Tu habilidad para presentar ejercicios en vivo y resolver dudas ha sido impresionante. Tu pasión y dedicación son evidentes y te distinguen como un verdadero Henry Heroe. Sigue así! ",
     },
     {
-      name: "Michael Johnson",
-      position: "Developer",
-      recommendation: "Nullam bibendum varius nisi, at iaculis diam volutpat ac. In ut mi at magna euismod dictum.",
+      name: "Gibson Gil",
+      position: "Full Stack Developer",
+      recommendation: "",
     }
   ];
 
   return (
     <section className="recommendations" id="recommendations">
-      <Container>
-        <Row>
-          <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <Row>
-                  {
-                    recommendations.map((recommendation, index) => {
-                      return (
-                        <Col key={index} sm={6} md={4}>
-                          <RecommendationCard {...recommendation} />
-                        </Col>
-                      );
-                    })
-                  }
-                </Row>
-              </div>}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="technology-bx wow zoomIn">
+              <h2>Recomendations</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> Lorem Ipsum has been the industry's standard dummy text.</p>
+              <TrackVisibility>
+                {({ isVisible }) =>
+                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                    <Row>
+                      {
+                        recommendations.map((recommendation, index) => {
+                          return (
+                            <Col key={index} sm={6} md={4}>
+                              <RecommendationCard {...recommendation} />
+                            </Col>
+                          );
+                        })
+                      }
+                    </Row>
+                  </div>}
+              </TrackVisibility>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-  );
-};
+  )
+}
+
