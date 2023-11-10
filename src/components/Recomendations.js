@@ -11,16 +11,21 @@ export const Recommendations = () => {
       name: "Valentina Vidal",
       position: "Huntek Co-Founder",
       recommendation: "Anthony es un gran profesional, pro activo, con muchísimas ganas siempre de sumar y sin dudar de dar su mejor cara para los retos que puede tener. Siempre tratando de aprender un poco mas para poder sumar a Huntek. Le espera un camino enorme sin duda alguna",
+      linkedinUrl:'https://www.linkedin.com/in/valentina-vidal-naranjo-1aa341113/',
+      companyLogo: 'https://ams3.digitaloceanspaces.com/graffica/2023/02/cocacola-logo-1024x696.jpeg'
+
     },
     {
       name: "Gustavo Martinez",
       position: "HH's Coordinator",
       recommendation: "Felicitaciones Anthony por tu excelente desempeño en el programa de Henry Heroes! Tu habilidad para presentar ejercicios en vivo y resolver dudas ha sido impresionante. Tu pasión y dedicación son evidentes y te distinguen como un verdadero Henry Heroe. Sigue así! ",
+      linkedinUrl: 'https://www.linkedin.com/in/martinez-trejo-gustavo/'
     },
     {
       name: "Gibson Gil",
       position: "Full Stack Developer",
       recommendation: "Compartir espacios con Anthony fue una agradable experiencia, siempre buscando la forma de ayudar y aprender, le espera una gran carrera y un enorme futuro, sin duda un gran colega de profesion.",
+      linkedinUrl: 'https://www.linkedin.com/in/gibsongil/'
     }
   ];
 

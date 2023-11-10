@@ -1,0 +1,22 @@
+{
+    "header": {
+        "welcome":"Hola! Soy Anthony Desarrollador FullStack",
+        "messaje":"Bienvenido a mi Portfolio",
+        "button":"Contactame",
+        "description":"Desarrollador Full Stack altamente motivado con enfoque en Backend y habilidades de Dibujo Técnico Avanzado con experiencia en proyectos arquitectónicos y civiles. Poseer fuertes habilidades de trabajo en equipo, pensamiento estratégico y liderazgo. Especializado en desarrollo Front-end y Back-end, con conocimientos en gestión de proyectos, GIT, estructuras de datos, algoritmos, metodologías ágiles, frameworks y CSS."
+    },
+    "nav":{
+        "home":"Inicio",
+        "skills":"Habilidades",
+        "projects":"Proyectos",
+        "button-connect":"Contactame"
+    },
+    "skills":{
+        "title":"Habilidades",
+        "introduction":"Bienvenido a la sección de habilidades, donde convergen mi pasión y experiencia en el fascinante mundo del desarrollo. Mi enfoque es más que escribir líneas de código; es una búsqueda constante de la excelencia técnica y la creatividad aplicada.",
+        "data-bases":"Bases de Datos",
+        "web": "Desarrollo Web",
+        "backend": "Desarrolo de Backend",
+        "frontend": "Desarrollo de Frontend"
+    }
+}

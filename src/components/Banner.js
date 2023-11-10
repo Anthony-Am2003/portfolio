@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/perfil.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { useTranslation } from "react-i18next";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -11,6 +12,8 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Backend Developer", "FullStack Developer" ];
   const period = 2000;
+
+  const [t, i18n] = useTranslation("global");
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -50,24 +53,23 @@ export const Banner = () => {
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio</span>
-            <h1>{`Hi! I'm Anthony FullStack Developer`}</h1>
-            <p>Highly motivated Full Stack Developer with a focus on Backend and Advanced Technical
-              Drawing skills with experience in architectural and civil projects. Possess strong skills in
-              teamwork, strategic thinking, and leadership. Specialized in Front-end and Back-end
-              development, with knowledge in project management, GIT, data structures, algorithms, agile
-              methodologies, frameworks, and CSS</p>
-            <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+            <span className="tagline">{t("header.messaje")}</span>
+            <h1>{t("header.welcome")}</h1>
+            <p>{t("header.description")}</p>
+            <button onClick={() => console.log('connect')}>{t("header.button")}<ArrowRightCircle size={25} /></button>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={18} md={6} xl={5}>
             <img
               src={headerImg}
               alt="Header Img"
               style={{
-                borderRadius: "50%",
-                width: "350px",
-                height: "350px",
-                maxWidth: "100%",
+                width: "500px",
+                height: "500px",
+                maxWidth: "110%",
+                borderRadius: "50%",  // Hace que la imagen sea ovalada
+                backgroundColor: "#282727",  // Fondo gris
+                border: "3px solid white",  // Borde gris
+                boxShadow: "0 0 30px orange"
               }}
             />
           </Col>
