@@ -288,9 +288,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
-  animation: updown 3s linear infinite;
-}
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -620,12 +618,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************Recomendatios************/
 .recommendation-card {
-  background: linear-gradient(135deg, rgba(251, 169, 17, 0.8), rgba(0, 0, 0, 0.8));
+  background: linear-gradient(135deg, rgba(15, 14, 13, 0.8), rgba(0, 0, 0, 0.8));
   background-size: cover;
-  background-blend-mode: multiply;
-  color: white;
-  border-radius: 10px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+  border: "3px solid white";
+  border-radius: 20px;
+  box-shadow: 0px 2px 20px orange;
   padding: 20px;
   margin: 20px;
   text-align: center;
@@ -634,6 +631,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: space-between;
   width: 300px;
   height: 450px; /* Ajusta la altura según tu diseño */
+  position: relative; /* Para posicionar el botón correctamente */
 }
 
 .recommendation-card .recommendation-text h4 {
@@ -655,19 +653,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .linkedin-button {
   background-color: #0077B5;
   color: white;
-  border: none;
+  border: 2px solid white; /* Agregar bordes blancos */
   padding: 10px 20px;
-  margin-top: 10px;
+  margin-top: auto; /* Colocar el botón al final */
   border-radius: 5px;
   text-decoration: none;
   font-size: 1rem;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Agregar transición a los bordes */
 }
 
 .linkedin-button:hover {
-  background-color: #005B8E;
+  background-color: #ffffff;
+  border-color: #FBA911; /* Cambiar el color del borde al pasar el cursor */
 }
-
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;

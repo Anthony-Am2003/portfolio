@@ -1,0 +1,50 @@
+{
+    "header": {
+        "welcome":"Hola! Soy Anthony Desarrollador FullStack",
+        "messaje":"Bienvenido a mi Portfolio",
+        "button":"Contactame",
+        "description":"Desarrollador Full Stack altamente motivado con enfoque en Backend y habilidades de Dibujo Técnico Avanzado con experiencia en proyectos arquitectónicos y civiles. Poseer fuertes habilidades de trabajo en equipo, pensamiento estratégico y liderazgo. Especializado en desarrollo Front-end y Back-end, con conocimientos en gestión de proyectos, GIT, estructuras de datos, algoritmos, metodologías ágiles, frameworks y CSS."
+    },
+    "nav":{
+        "home":"Inicio",
+        "skills":"Habilidades",
+        "projects":"Proyectos",
+        "button-connect":"Contactame"
+    },
+    "skills":{
+        "title":"Habilidades",
+        "introduction":"Bienvenido a la sección de habilidades, donde convergen mi pasión y experiencia en el fascinante mundo del desarrollo. Mi enfoque es más que escribir líneas de código; es una búsqueda constante de la excelencia técnica y la creatividad aplicada.",
+        "data-bases":"Bases de Datos",
+        "web": "Desarrollo Web",
+        "backend": "Desarrollo de Backend",
+        "frontend": "Desarrollo de Frontend"
+    },
+    "projects":{
+        "title":"Proyectos",
+        "introduction":"Explora la sección de proyectos, una exhibición de mi trayectoria a través de diversos y cautivadores emprendimientos de desarrollo. Cada proyecto encapsula mi dedicación a la maestría técnica y la aplicación de soluciones imaginativas. Más allá del simple código, estos proyectos encarnan un compromiso con superar límites y ofrecer resultados innovadores y impactantes. Únete a mí en esta exploración de creatividad y precisión en el dinámico ámbito del desarrollo."
+    },
+    "tech": {
+        "title": "Tecnologias",
+        "introduction":"Bienvenido a la sección de Tecnologías, un panorama integral de las diversas herramientas y marcos que utilizo con destreza en mis proyectos. Esta colección representa mi compromiso de mantenerme a la vanguardia de los avances tecnológicos. Más allá de ser una simple lista, cada tecnología encarna mi dedicación a la precisión y eficiencia en la creación de soluciones innovadoras. Únete a mí en la exploración de este paisaje dinámico donde las herramientas de última generación convergen con una implementación creativa."
+    },
+    "recomendations": {
+        "title":"Recomendaciones",
+        "introduction": "Bienvenido a la sección de Recomendaciones, donde las voces de aquellos con quienes he tenido el placer de colaborar hablan por sí mismas. Estas recomendaciones reflejan la dedicación y el compromiso que aporto a cada proyecto. Explora las experiencias de quienes han sido parte de mi trayectoria profesional, y descubre cómo mi enfoque ha dejado una impresión positiva y duradera. Estas recomendaciones son testamentos vivos de la colaboración exitosa y la calidad que me esfuerzo por aportar a cada interacción profesional",
+        "valentina": "Anthony es un gran profesional, pro activo, con muchísimas ganas siempre de sumar y sin dudar de dar su mejor cara para los retos que puede tener. Siempre tratando de aprender un poco mas para poder sumar a Huntek. Le espera un camino enorme sin duda alguna",
+        "gibson": "Compartir espacios con Anthony fue una agradable experiencia, siempre buscando la forma de ayudar y aprender, le espera una gran carrera y un enorme futuro, sin duda un gran colega de profesion.",
+        "gustavo" : "Felicitaciones Anthony por tu excelente desempeño en el programa de Henry Heroes! Tu habilidad para presentar ejercicios en vivo y resolver dudas ha sido impresionante. Tu pasión y dedicación son evidentes y te distinguen como un verdadero Henry Heroe. Sigue así!"
+    },
+    "conect": {
+        "first-name":"Nombre",
+        "last-name":"Apellido",
+        "email":"Correo electronico",
+        "phone":"Numero de telefono",
+        "message":"Mensaje",
+        "send":"Enviar",
+        "title":"Ponerse en contacto",
+        "subscription":"Únete a nuestro foro,",
+        "foro":"no te pierdas ninguna actualización!"
+
+
+    }
+}

@@ -5,8 +5,11 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
+import { useTranslation } from "react-i18next";
 
 export const Skills = () => {
+  const [t, i18n] = useTranslation("global")
+  
   const responsive = {
     superLargeDesktop: {
      
@@ -33,24 +36,24 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <h2>{t("skills.title")}</h2>
+                        <p>{t("skills.introduction")}</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Backend Development</h5>
+                                <h5>{t("skills.web")}</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Frontend Development</h5>
+                                <h5>{t("skills.backend")}</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>{t("skills.frontend")}</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Data Bases</h5>
+                                <h5>{t("skills.data-bases")}</h5>
                             </div>
                         </Carousel>
                     </div>
