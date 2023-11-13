@@ -14,9 +14,13 @@ import pythonIcon from "../assets/img/python.svg";
 import fastapiIcon from "../assets/img/fastApi.png";
 import dockerIcon from "../assets/img/docker.svg";
 import Carousel from 'react-multi-carousel';
+import { useTranslation } from 'react-i18next';
 
 
 export const Technologies = () => {
+
+  const [t, i18n] = useTranslation("global");
+
     const responsive = {
       superLargeDesktop: {
         breakpoint: { max: 4000, min: 3000 },
@@ -42,8 +46,8 @@ export const Technologies = () => {
           <div className="row">
             <div className="col-12">
               <div className="technology-bx wow zoomIn">
-                <h2>Technologies</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> Lorem Ipsum has been the industry's standard dummy text.</p>
+                <h2>{t("tech.title")}</h2>
+                <p>{t("tech.introduction")}</p>
                 <div className="technology-icons">
   <div className="icon-wrapper">
     <img src={htmlIcon} alt="HTML" />

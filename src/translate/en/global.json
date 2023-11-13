@@ -18,5 +18,31 @@
         "web": "Web Development",
         "backend": "Backend Development",
         "frontend": "Frontend Development"
+    },
+    "projects":{
+        "title":"Projects",
+        "introduction":"Explore my projects section, a showcase of my journey through diverse and captivating development endeavors. Each project encapsulates my dedication to technical mastery and the application of imaginative solutions. Beyond mere code, these ventures embody a commitment to pushing boundaries and delivering innovative, impactful results. Join me on this exploration of creativity and precision in the dynamic realm of development."
+    },
+    "tech": {
+        "title": "Technologies",
+        "introduction":"Welcome to the Technologies section, a comprehensive overview of the diverse tools and frameworks I proficiently leverage in my projects. This collection represents my commitment to staying at the forefront of technological advancements. Beyond a mere list, each technology embodies my dedication to precision and efficiency in crafting innovative solutions. Join me in exploring this dynamic landscape where cutting-edge tools converge with creative implementation."
+    },
+    "recomendations": {
+        "title":"Recomendations",
+        "introduction": "Welcome to the Recommendations section, where the voices of those I've had the pleasure to collaborate with speak for themselves. These recommendations reflect the dedication and commitment I bring to each project. Explore the experiences of those who have been part of my professional journey and discover how my approach has left a positive and lasting impression. These recommendations are living testimonials of successful collaboration and the quality I strive to bring to every professional interaction.",
+        "valentina": "Anthony is a great professional, pro-active, always eager to add and without hesitating to give his best face to the challenges he may face. He is always trying to learn a little more so he can add Huntek. He has a huge road ahead of him without a doubt.",
+        "gibson": "Sharing spaces with Anthony was a pleasant experience, always looking for ways to help and learn, a great career and a huge future await him, without a doubt a great professional colleague.        ",
+        "gustavo" : "Congratulations Anthony on your excellent performance on the Henry Heroes show! Your ability to present live exercises and resolve doubts has been impressive. Your passion and dedication are evident and set you apart as a true Henry Hero. Keep it up!"
+    },
+    "conect": {
+        "first-name":"First Name",
+        "last-name":"Last Name",
+        "email":"Email Addres",
+        "phone":"Phone No.",
+        "message":"Message",
+        "send":"Send",
+        "title":"Get In Touch",
+        "subscription":"Subscribe to our Newsletter",
+        "foro":"& Never miss latest updates"
     }
 }
