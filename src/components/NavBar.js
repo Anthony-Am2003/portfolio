@@ -17,6 +17,7 @@ export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
+  const [lng, setLng] = useState("ENGLISH");
 
   useEffect(() => {
     const onScroll = () => {
@@ -34,6 +35,22 @@ export const NavBar = () => {
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+  }
+
+  const changeLng = () => {
+   const changeLanguage = (value) => {
+    i18n.changeLanguage(value);
+   }
+
+    if(lng === "ENGLISH"){
+      setLng("ESPANISH");
+      changeLanguage("en")
+    }
+
+    if(lng === "ESPANISH"){
+      setLng("ENGLISH");
+      changeLanguage("es");
+    }
   }
 
   return (
@@ -61,6 +78,7 @@ export const NavBar = () => {
               <HashLink to='#connect'>
                 <button className="vvd"><span>{t("nav.button-connect")}</span></button>
               </HashLink>
+                <button className="vvb" onClick={() => changeLng()}>{lng}</button>
             </span>
           </Navbar.Collapse>
         </Container>
