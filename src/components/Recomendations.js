@@ -48,9 +48,7 @@ export const Recommendations = () => {
                       {
                         recommendations.map((recommendation, index) => {
                           return (
-                            <Col key={index} sm={6} md={4}>
-                              <RecommendationCard {...recommendation} />
-                            </Col>
+                            <RecommendationCard {...recommendation} />
                           );
                         })
                       }
